@@ -13,7 +13,9 @@ LeetCode/
 │── README.md
 │── Super Easy Problems/
 │ ├── 258.AddDigits.cpp
-│ └── 258.AddDigits.exe
+│ ├── 258.AddDigits.exe
+│ ├── 387.FirstUniqueCharacterInAString.cpp
+│ └── 387.FirstUniqueCharacterInAString.exe
 ```
 
 - [**`Super Easy Problems`**](https://leetcode.com/problem-list/prshgx6i/) → A beginner-friendly problems list on LeetCode.
