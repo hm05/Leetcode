@@ -33,8 +33,6 @@ public:
 int main(){
     Solution sol;
     string sentence = "thequickbrownfoxjumpsoverthelazydog";
-    bool ans = sol.checkIfPangram(sentence);
-    cout << ans;
     if(sol.checkIfPangram(sentence)) cout << "true";
     else cout << "false";
     return 0;
