@@ -25,16 +25,15 @@ Alice can win by choosing double-digit numbers which have a sum equal to 25.
 
 using namespace std;
 
-class Solution{
+class Solution {
 public:
-    bool canAliceWin(vector<int>& nums){
-        int singleDigit = 0;
-        int doubleDigit = 0;
-        for (int element : nums){
-            if(element < 10) singleDigit += element;
-            else doubleDigit += element;
+    bool canAliceWin(vector<int>& nums) {
+        int digits[2] = {0};
+        for(int element : nums){
+            if(element < 10) digits[0] += element;
+            else digits[1] += element;
         }
-        if(singleDigit == doubleDigit) return false;
+        if(digits[0] == digits[1]) return false;
         else return true;
     }
 };
